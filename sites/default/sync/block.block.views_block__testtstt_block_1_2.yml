@@ -1,0 +1,24 @@
+uuid: 11882548-097e-4dc2-83bd-660e3c7d2b2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testtstt
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__testtstt_block_1_2
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:testtstt-block_1'
+settings:
+  id: 'views_block:testtstt-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

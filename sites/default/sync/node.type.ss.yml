@@ -1,0 +1,18 @@
+uuid: 839e69f1-8302-4fbc-b9bf-bcc4a24d4aa4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: ss
+type: ss
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

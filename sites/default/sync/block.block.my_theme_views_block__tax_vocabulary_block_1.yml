@@ -1,0 +1,24 @@
+uuid: bfbbeff2-433e-4ba2-a76a-62b13fa38226
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tax_vocabulary
+  module:
+    - views
+  theme:
+    - my_theme
+id: my_theme_views_block__tax_vocabulary_block_1
+theme: my_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:tax_vocabulary-block_1'
+settings:
+  id: 'views_block:tax_vocabulary-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

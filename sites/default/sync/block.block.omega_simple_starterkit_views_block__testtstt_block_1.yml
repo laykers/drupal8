@@ -1,0 +1,24 @@
+uuid: 7942ae84-2f5a-4444-bba0-a9b5c09e6ec2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testtstt
+  module:
+    - views
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_views_block__testtstt_block_1
+theme: omega_simple_starterkit
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:testtstt-block_1'
+settings:
+  id: 'views_block:testtstt-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

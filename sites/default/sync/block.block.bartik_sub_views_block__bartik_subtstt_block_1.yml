@@ -1,0 +1,24 @@
+uuid: ad9e3430-6bf3-4508-b003-ebd103dd56a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testtstt
+  module:
+    - views
+  theme:
+    - bartik_sub
+id: bartik_sub_views_block__bartik_subtstt_block_1
+theme: bartik_sub
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:testtstt-block_1'
+settings:
+  id: 'views_block:testtstt-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

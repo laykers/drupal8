@@ -1,0 +1,37 @@
+uuid: b4f01b73-2350-438b-80c9-4aa9fb51c256
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.imggg.body
+    - field.field.node.imggg.field_ddd
+    - node.type.imggg
+  module:
+    - image
+    - text
+    - user
+id: node.imggg.default
+targetEntityType: node
+bundle: imggg
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_ddd:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

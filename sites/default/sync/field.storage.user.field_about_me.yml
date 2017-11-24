@@ -1,0 +1,19 @@
+uuid: 3e506dc1-4956-47f4-b04c-0ff763b6d5f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.field_about_me
+field_name: field_about_me
+entity_type: user
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: b9fb2474-dec5-4e34-b058-938fc32bc49e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.maps
+    - field.field.block_content.maps.body
+  module:
+    - text
+id: block_content.maps.default
+targetEntityType: block_content
+bundle: maps
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

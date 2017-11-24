@@ -1,0 +1,26 @@
+uuid: debf7557-c930-45f8-b56d-0090d6a26408
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.data.body
+    - node.type.data
+  module:
+    - text
+    - user
+id: node.data.default
+targetEntityType: node
+bundle: data
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

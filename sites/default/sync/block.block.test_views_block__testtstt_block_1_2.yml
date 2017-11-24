@@ -1,0 +1,24 @@
+uuid: 14c79f37-47c0-46b4-8259-86231f05da8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testtstt
+  module:
+    - views
+  theme:
+    - test
+id: test_views_block__testtstt_block_1_2
+theme: test
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:testtstt-block_1'
+settings:
+  id: 'views_block:testtstt-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

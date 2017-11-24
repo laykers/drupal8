@@ -1,0 +1,25 @@
+uuid: 7d2c4b31-77c0-4195-ba52-3b63e7c660f2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pdfblock:2f5c40c3-9bb6-47e4-b69a-24ba628770d1'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: my_theme_downloadpdf
+theme: my_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:2f5c40c3-9bb6-47e4-b69a-24ba628770d1'
+settings:
+  id: 'block_content:2f5c40c3-9bb6-47e4-b69a-24ba628770d1'
+  label: 'Download pdf'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

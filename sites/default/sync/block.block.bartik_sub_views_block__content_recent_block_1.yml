@@ -1,0 +1,32 @@
+uuid: 3b9a3d8b-c78b-4663-8824-94341547a113
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - node
+    - views
+  theme:
+    - bartik_sub
+id: bartik_sub_views_block__content_recent_block_1
+theme: bartik_sub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

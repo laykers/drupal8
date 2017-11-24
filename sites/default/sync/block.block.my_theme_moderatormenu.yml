@@ -1,0 +1,32 @@
+uuid: d260c71d-1f3f-4180-863a-9d78e3191e6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.moderator-menu
+  module:
+    - system
+    - user
+  theme:
+    - my_theme
+id: my_theme_moderatormenu
+theme: my_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:moderator-menu'
+settings:
+  id: 'system_menu_block:moderator-menu'
+  label: 'Moderator menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      moderator: moderator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

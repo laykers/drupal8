@@ -1,0 +1,9 @@
+uuid: efec5bc8-c99c-4de3-8ec9-f53a2231b932
+langcode: en
+status: true
+dependencies: {  }
+name: Vocabularytags
+vid: vocabularytags
+description: ''
+hierarchy: 0
+weight: 0

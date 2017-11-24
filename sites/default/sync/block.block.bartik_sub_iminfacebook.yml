@@ -1,0 +1,25 @@
+uuid: 6cadfa43-6b35-44a3-a1ca-076a4bcb2bcf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:23995ed1-f8c7-4739-ae8c-42cd50f0d7b6'
+  module:
+    - block_content
+  theme:
+    - bartik_sub
+id: bartik_sub_iminfacebook
+theme: bartik_sub
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:23995ed1-f8c7-4739-ae8c-42cd50f0d7b6'
+settings:
+  id: 'block_content:23995ed1-f8c7-4739-ae8c-42cd50f0d7b6'
+  label: 'I`m in facebook))'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

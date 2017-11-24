@@ -1,0 +1,32 @@
+uuid: 3ed90d7f-bf1f-4551-b5eb-d9a9b49f2554
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.moderator-menu
+  module:
+    - system
+    - user
+  theme:
+    - bartik_sub
+id: bartik_sub_moderatormenu
+theme: bartik_sub
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:moderator-menu'
+settings:
+  id: 'system_menu_block:moderator-menu'
+  label: 'Moderator menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      moderator: moderator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

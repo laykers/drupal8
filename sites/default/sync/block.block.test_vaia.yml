@@ -1,0 +1,25 @@
+uuid: 5f4144ab-54e8-48b5-899e-e90c0e556acd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+  module:
+    - block_content
+  theme:
+    - test
+id: test_vaia
+theme: test
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+settings:
+  id: 'block_content:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+  label: Vaia
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

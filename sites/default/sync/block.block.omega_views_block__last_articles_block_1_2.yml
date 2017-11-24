@@ -1,0 +1,24 @@
+uuid: 763f7cf3-0972-473c-a126-6eac0ae1ae29
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.last_articles
+  module:
+    - views
+  theme:
+    - omega
+id: omega_views_block__last_articles_block_1_2
+theme: omega
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:last_articles-block_1'
+settings:
+  id: 'views_block:last_articles-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 9c213058-fbdd-47bb-92df-da0107959bfb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+  module:
+    - block_content
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_vaia
+theme: omega_simple_starterkit
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+settings:
+  id: 'block_content:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+  label: Vaia
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

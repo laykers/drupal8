@@ -1,0 +1,32 @@
+uuid: 8840d3a7-379f-41c8-a3af-bad40f013448
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - node
+    - views
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_views_block__content_recent_block_1
+theme: omega_simple_starterkit
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

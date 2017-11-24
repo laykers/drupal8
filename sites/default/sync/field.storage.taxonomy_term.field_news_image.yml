@@ -1,0 +1,30 @@
+uuid: 13f74de7-315c-40ba-b779-e31d1a29c4c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - taxonomy
+id: taxonomy_term.field_news_image
+field_name: field_news_image
+entity_type: taxonomy_term
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 2278bcc2-5d1c-4fc2-98bc-3aed7c074794
+    alt: ''
+    title: ''
+    width: 318
+    height: 159
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

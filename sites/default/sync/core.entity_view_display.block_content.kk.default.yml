@@ -1,0 +1,22 @@
+uuid: a49ba360-e9f9-4ec5-a360-243f8d55d2c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.kk
+    - field.field.block_content.kk.body
+  module:
+    - text
+id: block_content.kk.default
+targetEntityType: block_content
+bundle: kk
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

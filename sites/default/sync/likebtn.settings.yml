@@ -1,0 +1,87 @@
+general:
+  likebtn_plan: '9'
+  likebtn_user_logged_in: logged_in
+  likebtn_sync_inerval: '60'
+  likebtn_weight: '10'
+  likebtn_nodetypes:
+    blog: blog
+    page: page
+    article: 0
+    imggg: 0
+    my_content: 0
+    ndd: 0
+    publications: 0
+    save_image: 0
+  likebtn_comments_nodetypes:
+    article: 0
+    blog: 0
+    imggg: 0
+    my_content: 0
+    ndd: 0
+    page: 0
+    publications: 0
+    save_image: 0
+  likebtn_view_modes:
+    full: full
+    teaser: teaser
+    rss: 0
+    search_index: 0
+    search_result: 0
+  likebtn_account_data_email: ''
+  likebtn_account_data_api_key: ''
+  likebtn_account_data_site_id: ''
+  likebtn_settings_local_domain: ''
+  likebtn_settings_subdirectory: ''
+settings:
+  likebtn_alignment: left
+  likebtn_settings:
+    style: white
+    lang: en
+    show_like_label: true
+    show_dislike_label: false
+    popup_dislike: false
+    like_enabled: true
+    icon_like_show: true
+    icon_dislike_show: true
+    lazy_load: false
+    dislike_enabled: true
+    display_only: false
+    unlike_allowed: true
+    like_dislike_at_the_same_time: false
+    show_copyright: true
+    rich_snippet: false
+    popup_content_order: 'popup_share,popup_donate,popup_html'
+    popup_enabled: true
+    popup_position: true
+    popup_style: true
+    popup_hide_on_outside_click: true
+    event_handler: null
+    info_message: true
+    counter_type: number
+    counter_clickable: false
+    counter_show: true
+    counter_padding: null
+    counter_zero_show: false
+    share_enabled: true
+    addthis_pubid: null
+    addthis_service_codes: null
+    loader_show: false
+    loader_image: null
+    tooltip_enabled: true
+    i18n_like: null
+    i18n_dislike: null
+    i18n_after_like: null
+    i18n_after_dislike: null
+    i18n_like_tooltip: null
+    i18n_dislike_tooltip: null
+    i18n_unlike_tooltip: null
+    i18n_undislike_tooltip: null
+    i18n_share_text: null
+    i18n_popup_close: null
+    i18n_popup_text: null
+  sync:
+    likebtn_last_sync_time: 0
+    likebtn_last_successfull_sync_time: 0
+    likebtn_sync_inerval: 60
+_core:
+  default_config_hash: 7Usg3hu2Ekd2L3oO1-eqy2jd42YwyGq7eWWnQi3ZZjo

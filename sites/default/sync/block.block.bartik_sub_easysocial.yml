@@ -1,0 +1,20 @@
+uuid: d59574d8-a283-4628-a51d-b17c87388890
+langcode: en
+status: true
+dependencies:
+  module:
+    - easy_social
+  theme:
+    - bartik_sub
+id: bartik_sub_easysocial
+theme: bartik_sub
+region: header
+weight: 0
+provider: null
+plugin: easy_social_block
+settings:
+  id: easy_social_block
+  label: 'Easy Social'
+  provider: easy_social
+  label_display: visible
+visibility: {  }

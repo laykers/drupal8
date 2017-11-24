@@ -1,0 +1,22 @@
+uuid: 77f1eb02-7ee6-4e2b-95ca-98823c49cdb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.imggg
+  module:
+    - text
+id: node.imggg.body
+field_name: body
+entity_type: node
+bundle: imggg
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

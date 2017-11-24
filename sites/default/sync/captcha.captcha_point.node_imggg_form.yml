@@ -1,0 +1,7 @@
+uuid: 6fb09c28-4c1a-4ac0-a463-fb84c9ebe81a
+langcode: en
+status: false
+dependencies: {  }
+formId: node_imggg_form
+captchaType: default
+label: null

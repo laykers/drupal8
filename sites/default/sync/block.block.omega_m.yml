@@ -1,0 +1,25 @@
+uuid: cb24967e-826e-4191-a282-0acdc332d550
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:maps:e9c9dac3-7f1a-4c1a-bb3b-dc5dcfb3a900'
+  module:
+    - block_content
+  theme:
+    - omega
+id: omega_m
+theme: omega
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:e9c9dac3-7f1a-4c1a-bb3b-dc5dcfb3a900'
+settings:
+  id: 'block_content:e9c9dac3-7f1a-4c1a-bb3b-dc5dcfb3a900'
+  label: m
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 18f6fccd-5cc1-4bdd-bd39-2dd7fc8ed628
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.save_image
+  module:
+    - text
+id: node.save_image.body
+field_name: body
+entity_type: node
+bundle: save_image
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

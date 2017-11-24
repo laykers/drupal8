@@ -1,0 +1,22 @@
+uuid: bcaf2a89-747b-4154-8e57-dffc01d4f231
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ndd
+  module:
+    - text
+id: node.ndd.body
+field_name: body
+entity_type: node
+bundle: ndd
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

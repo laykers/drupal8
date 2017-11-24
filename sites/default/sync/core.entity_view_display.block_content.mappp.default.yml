@@ -1,0 +1,22 @@
+uuid: 27d3734f-d9b4-401b-b35b-3aa03bc700ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mappp
+    - field.field.block_content.mappp.body
+  module:
+    - text
+id: block_content.mappp.default
+targetEntityType: block_content
+bundle: mappp
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

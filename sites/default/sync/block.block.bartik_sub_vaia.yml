@@ -1,0 +1,25 @@
+uuid: b8ac5733-c6e9-4c38-b82a-4793030c13a7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+  module:
+    - block_content
+  theme:
+    - bartik_sub
+id: bartik_sub_vaia
+theme: bartik_sub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+settings:
+  id: 'block_content:50bd80cd-5946-43b7-ac57-e93a8e76a22a'
+  label: Vaia
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

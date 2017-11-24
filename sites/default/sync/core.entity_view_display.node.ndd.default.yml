@@ -1,0 +1,26 @@
+uuid: 2d49d510-8351-4f14-9fdc-f2e1a6be6758
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ndd.body
+    - node.type.ndd
+  module:
+    - text
+    - user
+id: node.ndd.default
+targetEntityType: node
+bundle: ndd
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

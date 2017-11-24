@@ -1,0 +1,25 @@
+uuid: 0e6144e2-10cf-4d86-8ddb-f26b1f59b210
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pdfblock:2f5c40c3-9bb6-47e4-b69a-24ba628770d1'
+  module:
+    - block_content
+  theme:
+    - omega
+id: omega_downloadpdf
+theme: omega
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:2f5c40c3-9bb6-47e4-b69a-24ba628770d1'
+settings:
+  id: 'block_content:2f5c40c3-9bb6-47e4-b69a-24ba628770d1'
+  label: 'Download pdf'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

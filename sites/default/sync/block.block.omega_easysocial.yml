@@ -1,0 +1,20 @@
+uuid: 15a86b99-3ce8-49bb-84cb-7230b12ba069
+langcode: en
+status: true
+dependencies:
+  module:
+    - easy_social
+  theme:
+    - omega
+id: omega_easysocial
+theme: omega
+region: header
+weight: 0
+provider: null
+plugin: easy_social_block
+settings:
+  id: easy_social_block
+  label: 'Easy Social'
+  provider: easy_social
+  label_display: visible
+visibility: {  }

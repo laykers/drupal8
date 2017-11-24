@@ -1,0 +1,28 @@
+uuid: b472dd74-7292-41eb-9c18-50e9ce286cdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.save_image.body
+    - node.type.save_image
+  module:
+    - text
+    - user
+id: node.save_image.teaser
+targetEntityType: node
+bundle: save_image
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

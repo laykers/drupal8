@@ -1,0 +1,26 @@
+uuid: 2eba86ce-4182-4901-871b-3c10c77a71c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ss.body
+    - node.type.ss
+  module:
+    - text
+    - user
+id: node.ss.default
+targetEntityType: node
+bundle: ss
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

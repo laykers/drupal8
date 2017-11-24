@@ -1,0 +1,31 @@
+uuid: 9743c955-53b7-415a-aad0-b9182f25e8d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - omega_simple_starterkit
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: omega_simple_starterkit_main_menu
+theme: omega_simple_starterkit
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility:
+  request_path:
+    id: request_path
+    pages: PPPPPPPPPPPPPPPPPPPP
+    negate: false
+    context_mapping: {  }

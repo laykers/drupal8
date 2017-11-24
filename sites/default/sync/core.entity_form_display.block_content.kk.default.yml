@@ -1,0 +1,32 @@
+uuid: 166c365e-8e71-4b54-9733-cd769ff92a9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.kk
+    - field.field.block_content.kk.body
+  module:
+    - text
+id: block_content.kk.default
+targetEntityType: block_content
+bundle: kk
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

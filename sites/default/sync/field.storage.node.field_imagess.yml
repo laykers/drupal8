@@ -1,0 +1,30 @@
+uuid: 917ac6d3-8a98-4a1e-abc2-18fc79bda222
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_imagess
+field_name: field_imagess
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: bfbb8fe1-0217-4adb-8968-0a8b0928d204
+    alt: sss
+    title: sss
+    width: 318
+    height: 159
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

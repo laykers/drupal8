@@ -1,0 +1,37 @@
+uuid: ffab43f1-ec17-4913-a70a-33c379da841a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blog_date.body
+    - field.field.node.blog_date.field_d
+    - node.type.blog_date
+  module:
+    - datetime
+    - text
+    - user
+id: node.blog_date.default
+targetEntityType: node
+bundle: blog_date
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_d:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

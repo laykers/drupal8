@@ -1,0 +1,25 @@
+uuid: f864bebd-8ece-4207-a230-59f950d52fb1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:371a6320-88af-4b3a-aad4-930f7143e5b3'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: cebacittilkimoderator
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:371a6320-88af-4b3a-aad4-930f7143e5b3'
+settings:
+  id: 'block_content:371a6320-88af-4b3a-aad4-930f7143e5b3'
+  label: 'Це бачить тільки модератор'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

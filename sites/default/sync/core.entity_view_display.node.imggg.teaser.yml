@@ -1,0 +1,28 @@
+uuid: e88837f5-7a56-4f54-8dce-6d782ef94915
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.imggg.body
+    - node.type.imggg
+  module:
+    - text
+    - user
+id: node.imggg.teaser
+targetEntityType: node
+bundle: imggg
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

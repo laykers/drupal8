@@ -1,0 +1,26 @@
+uuid: ff9dede9-27f3-417d-b5db-8188a570c941
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.save_image.body
+    - node.type.save_image
+  module:
+    - text
+    - user
+id: node.save_image.default
+targetEntityType: node
+bundle: save_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

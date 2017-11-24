@@ -1,0 +1,24 @@
+uuid: 90ed5af9-113f-4405-9519-e6042ce070f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testtstt
+  module:
+    - views
+  theme:
+    - omega
+id: omega_views_block__testtstt_block_1_2
+theme: omega
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:testtstt-block_1'
+settings:
+  id: 'views_block:testtstt-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

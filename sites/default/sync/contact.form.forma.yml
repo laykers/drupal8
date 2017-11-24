@@ -1,0 +1,12 @@
+uuid: 71cffdb2-0c4e-4312-830e-4c83c24f2ab6
+langcode: en
+status: true
+dependencies: {  }
+id: forma
+label: ФОРМА
+recipients:
+  - vasiliylaykin@gmail.com
+reply: Thanks
+weight: 4
+message: 'Зробіть свій вибір'
+redirect: /

@@ -1,0 +1,25 @@
+uuid: df483602-197d-4bae-a2a2-d34f9b678e00
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:371a6320-88af-4b3a-aad4-930f7143e5b3'
+  module:
+    - block_content
+  theme:
+    - test
+id: test_cebacittilkimoderator
+theme: test
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:371a6320-88af-4b3a-aad4-930f7143e5b3'
+settings:
+  id: 'block_content:371a6320-88af-4b3a-aad4-930f7143e5b3'
+  label: 'Це бачить тільки модератор'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

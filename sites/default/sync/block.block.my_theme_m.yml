@@ -1,0 +1,25 @@
+uuid: 1ad9bf57-2e7a-4877-b6e4-3028895cef74
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:maps:e9c9dac3-7f1a-4c1a-bb3b-dc5dcfb3a900'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: my_theme_m
+theme: my_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:e9c9dac3-7f1a-4c1a-bb3b-dc5dcfb3a900'
+settings:
+  id: 'block_content:e9c9dac3-7f1a-4c1a-bb3b-dc5dcfb3a900'
+  label: m
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

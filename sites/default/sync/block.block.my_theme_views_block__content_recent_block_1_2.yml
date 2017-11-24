@@ -1,0 +1,33 @@
+uuid: acb0dca0-abb1-4b8d-9956-58134d9ee315
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - user
+    - views
+  theme:
+    - my_theme
+id: my_theme_views_block__content_recent_block_1_2
+theme: my_theme
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      webmaster: webmaster
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

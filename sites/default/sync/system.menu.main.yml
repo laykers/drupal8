@@ -1,0 +1,10 @@
+uuid: eef23006-4b31-4477-a052-2423591eb186
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'About me'
+description: /node/6
+locked: true

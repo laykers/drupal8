@@ -1,0 +1,25 @@
+uuid: 79ee3548-0c97-4623-9053-a6b7a59a1310
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:23995ed1-f8c7-4739-ae8c-42cd50f0d7b6'
+  module:
+    - block_content
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_iminfacebook
+theme: omega_simple_starterkit
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:23995ed1-f8c7-4739-ae8c-42cd50f0d7b6'
+settings:
+  id: 'block_content:23995ed1-f8c7-4739-ae8c-42cd50f0d7b6'
+  label: 'I`m in facebook))'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

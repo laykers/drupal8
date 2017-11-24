@@ -1,0 +1,20 @@
+uuid: 1c1b3b64-be69-464b-ac73-b2b17533ae1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - easy_social
+  theme:
+    - test
+id: test_easysocial
+theme: test
+region: header
+weight: 0
+provider: null
+plugin: easy_social_block
+settings:
+  id: easy_social_block
+  label: 'Easy Social'
+  provider: easy_social
+  label_display: visible
+visibility: {  }

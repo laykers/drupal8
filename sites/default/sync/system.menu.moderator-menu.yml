@@ -1,0 +1,8 @@
+uuid: 1e365d05-5d19-4099-a95b-30af1f6aa34a
+langcode: en
+status: true
+dependencies: {  }
+id: moderator-menu
+label: 'Moderator menu'
+description: ''
+locked: false

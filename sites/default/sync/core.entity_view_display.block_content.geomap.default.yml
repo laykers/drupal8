@@ -1,0 +1,36 @@
+uuid: 9883e202-337a-4b3a-a843-1d38bc561b2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.geomap
+    - field.field.block_content.geomap.body
+    - field.field.block_content.geomap.field_maps
+  module:
+    - link
+    - text
+id: block_content.geomap.default
+targetEntityType: block_content
+bundle: geomap
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_maps:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

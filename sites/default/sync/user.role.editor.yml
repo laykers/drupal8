@@ -1,0 +1,17 @@
+uuid: 5b9affd9-41a3-41aa-8f84-60cf38efcff1
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 5
+is_admin: null
+permissions:
+  - 'create blog_date content'
+  - 'delete any blog_date content'
+  - 'delete blog_date revisions'
+  - 'delete own blog_date content'
+  - 'edit any blog_date content'
+  - 'edit own blog_date content'
+  - 'revert blog_date revisions'
+  - 'view blog_date revisions'

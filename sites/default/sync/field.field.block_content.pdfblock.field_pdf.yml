@@ -1,0 +1,27 @@
+uuid: 99b620d4-8e86-4956-8597-700ff26a25d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdfblock
+    - field.storage.block_content.field_pdf
+  module:
+    - file
+id: block_content.pdfblock.field_pdf
+field_name: field_pdf
+entity_type: block_content
+bundle: pdfblock
+label: pdf
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: '20 MB'
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
