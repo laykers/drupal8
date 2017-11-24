@@ -1,23 +1,25 @@
-uuid: debf7557-c930-45f8-b56d-0090d6a26408
+uuid: fe0a8443-cbca-4f19-9f28-f6c735fb8fdf
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.data.body
-    - node.type.data
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ty.body
+    - node.type.ty
   module:
     - text
     - user
-id: node.data.default
+id: node.ty.teaser
 targetEntityType: node
-bundle: data
-mode: default
+bundle: ty
+mode: teaser
 content:
   body:
     label: hidden
-    type: text_default
+    type: text_summary_or_trimmed
     weight: 101
-    settings: {  }
+    settings:
+      trim_length: 600
     third_party_settings: {  }
     region: content
   links:

@@ -1,0 +1,24 @@
+uuid: dcafcdb8-01b9-4658-be21-f3823834d7be
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_mmm
+field_name: field_mmm
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 0
+      label: '1, 2, 3'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

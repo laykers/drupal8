@@ -1,0 +1,21 @@
+uuid: cfca6e9a-421b-415d-982c-a77feb4e9bbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_zzzzzzz
+    - node.type.ty
+  module:
+    - datetime
+id: node.ty.field_zzzzzzz
+field_name: field_zzzzzzz
+entity_type: node
+bundle: ty
+label: zzzzzzz
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

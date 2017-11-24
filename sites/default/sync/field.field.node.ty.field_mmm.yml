@@ -1,0 +1,21 @@
+uuid: 37b5de75-3164-477a-b657-c0eae037d57f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mmm
+    - node.type.ty
+  module:
+    - options
+id: node.ty.field_mmm
+field_name: field_mmm
+entity_type: node
+bundle: ty
+label: mmm
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

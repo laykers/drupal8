@@ -1,16 +1,20 @@
-uuid: 59200cf3-1446-409a-9855-e44f9c501c9a
+uuid: 9673d622-a1cc-4dbe-b581-9417ec046aa1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.data.body
-    - node.type.data
+    - field.field.node.ty.body
+    - field.field.node.ty.field_aaaaaa
+    - field.field.node.ty.field_mmm
+    - field.field.node.ty.field_zzzzzzz
+    - node.type.ty
   module:
+    - datetime
     - path
     - text
-id: node.data.default
+id: node.ty.default
 targetEntityType: node
-bundle: data
+bundle: ty
 mode: default
 content:
   body:
@@ -28,6 +32,27 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_aaaaaa:
+    weight: 124
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_mmm:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_zzzzzzz:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   path:
     type: path
     weight: 30
